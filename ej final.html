@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monumentos</title>
+    <style>
+        body{display: flex; min-height: 100vh; justify-content: center; align-items: center;background-color: lightskyblue; margin:0; display:flex; justify-content:center;}
+        #contenedor{display: grid; grid-template-columns: 1fr 1fr 1fr; background-color: lightblue;}
+        .ej{background-color: lightskyblue; width: 30vw; height: 30vw; margin: 10px;}
+        .doble{grid-column: span 2; background-color: blue; width: 98%; height: 30vw; margin: 10px}
+        @media only screen and (max-width: 600px) { 
+            #contenedor {grid-template-columns: 1fr 1fr;}
+        }
+        img{width: 100%; height: 100%; object-fit: cover;}
+        b{text-align: center; font-size: 70px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+        p{font-size: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+ <!--       <div class="ej"><img src="c:\Users\alumno.DESKTOP-V1VMEQ0\Downloads\freepik__upload__54786.png"></div> -->
+        <div class="ej"><img src="coliseo.png"></div>
+        <div class="doble"><img src="Monte fuji.jpg"></div>
+        <div class="doble"><img src="taj_mahal.png"></div>
+        <div class="ej"><img src="TorreEiffel.jpg"></div>
+        <div class="ej"><img src="NotreDame.png"></div>
+        <div class="doble"><img src="big-ben-londres-inglaterra.jpg"></div>
+        <div class="ej"><img src="Golden_Gate.png"></div>
+        <div class="ej"><b>Miguel Martínez</b><p>Css grid layout ejercicio final</p></div> 
+        <div class="ej"><img src="muralla_china.png"></div>
+    </div>
+</body>
+</html>
